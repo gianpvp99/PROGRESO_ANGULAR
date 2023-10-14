@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import '@angular/localize/init';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ejemplo_version_ultima';
+  public progressbarHeight = '.857rem';
 }
